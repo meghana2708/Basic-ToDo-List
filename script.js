@@ -7,8 +7,8 @@ const addtask = document.querySelector('.add_Task')
 const input = document.querySelector('.addtext')
 const task = document.querySelector('.addtask')
 const ul = document.querySelector('.ul')
-const button = document.querySelector('.listItems')
-const list = document.querySelector('.list')
+// const button = document.querySelector('.listItems')
+// const list = document.querySelector('.list')
 
 
 
@@ -33,7 +33,7 @@ label.addEventListener('click',callbackfunc)
 
 
 
-const addListItems = (event) => {
+const addListItems = () => {
     const inputValue = input.value
     const text = '⨉'
     const workDone = '✔'
